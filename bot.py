@@ -14,7 +14,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands='start')
 async def send_welcome(message: types.Message):
-    await message.reply("Imlo Botiga Xush Kelibsiz!")
+    await message.reply("Imlo Botiga Xush Kelibsiz! \nKiril harflardi to'g'rilab beramiz")
 
 @dp.message_handler(commands='help')
 async def help_user(message: types.Message):
